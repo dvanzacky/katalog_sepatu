@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .logo img {
+    width: 100px;
+}
+
+.navbar a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar a :hover{
+    box-shadow: #d3d3d3;
+}
+
+.product-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.product-image img {
+    width: 40rem;
+}
+
+.product-details {
+    max-width: 400px;
+    padding: 0 20px;
+}
+
+.product-details h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.product-details .color {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.product-details .price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.size-selection {
+    margin-bottom: 20px;
+}
+
+.size-selection label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.size-button {
+    padding: 8px 12px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.availability {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.select-option {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.add-to-bag {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.delivery-info {
+    font-size: 12px;
+    color: #666;
+}
+
+.product-description {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.product-description h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.product-container{
+    margin-left: 2rem;
+}
+
+.product-description p {
+    font-size: 14px;    
+    margin: 1rem;
+}
+
+.pigskin-warning {
+    border: 1px solid red;
+    padding: 10px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.pigskin-warning a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.specifications {
+    display: flex;
+    justify-content: left;
+    padding: 1rem;
+    align-items: left;
+}
+
+.specifications ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.specifications ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.specifications ul li::before {
+    content: "•";
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    left: -20px;
+    top: -1px;
+}
+
+footer {
+    background-color: #d3d3d3;
+    color: #413636;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-links {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-links h3 {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.socials {
+    margin-top: 10px;
+}
+
+.socials a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    color: #3498db;
+}
