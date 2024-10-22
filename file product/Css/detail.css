@@ -21,7 +21,7 @@ body {
     width: 100px;
 }
 
-.navbar a {
+header .navbar a {
     margin-left: 15px;
     text-decoration: none;
     color: black;
